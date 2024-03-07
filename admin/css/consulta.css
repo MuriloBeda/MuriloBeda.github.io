@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#principal {
+	width: 90%;
+	height: 90vh;
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+	font-size: 11px;
+}
+
+.linha {
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	float: left;
+	color: white;
+	border-radius: .3VW;
+	background-color: #7c7c7c;
+}
+
+.coluna_01 {
+	width: 5%;
+	height: 10px;
+	padding: 4px;
+	float: left;
+	margin: 2px;
+	text-align: center;
+}
+
+.coluna_02 {
+	width: 10%;
+	height: 10px;
+	padding: 4px;
+	float: left;
+	margin: 2px;
+}
+
+.coluna_03 {
+	width: 20%;
+	height: 10px;
+	padding: 4px;
+	float: left;
+	margin: 2px;
+}

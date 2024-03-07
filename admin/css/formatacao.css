@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #3c3c3c;
+}
+h1{
+	color: #FFF;
+	font-family: monospace;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+
+#principal {
+	width: 310px;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #dadada;
+	margin: 5px;
+	width: 300px;
+	height: 16px;
+	float: left;
+	
+}
+
+.input_01 {
+	width: 300px;
+	height: 25px;
+	float: left;
+	margin: 5px;
+	border-radius: .3vw;
+	border: 0;
+}
+
+.input_02 {
+	width: 300px;
+	height: 25px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}
+
+.select_01 {
+	width: 304px;
+	height: 24px;
+	float: left;
+	margin: 5px;
+}
+
+.select_02 {
+	width: 304px;
+	height: 24px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}
+
+.btn {
+	width:  100px;
+	height: 24px;
+	background-color: #7c7c7c;
+	border: 0px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #FFF;
+	border-radius: .3vw;
+}
+
+.btn:hover {
+	width:  100px;
+	height: 24px;
+	background-color: #9c9c9c;
+	border: 0px;
+	transition: .15s;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #FFF;
+}
+
+.textarea_01 {
+	width: 298px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+}
+
+.textarea_02 {
+	width: 298px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+	background-color: #FFFFD7;
+}

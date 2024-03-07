@@ -1,0 +1,12 @@
+#
+# Structure for the `tb_projetos` table : 
+#
+
+CREATE TABLE `tb_projetos` (
+  `pro_codigo` int(11) NOT NULL AUTO_INCREMENT,
+  `pro_descricao` varchar(200) DEFAULT NULL,
+  `pro_foto` varchar(250) DEFAULT NULL,
+  `pro_status` char(1) DEFAULT NULL,
+  `pro_data_cadastro` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`pro_codigo`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
