@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfólio Murilo - Menu</title>
+  <title>Portfólio Murilo</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,7 +38,6 @@
           <li><a class="nav-link scrollto active" href="#hero">Menu</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
           <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-          <li><a class="nav-link scrollto " href="#work">Projetos</a></li>
           <li style="display:none"class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -56,7 +55,6 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -97,26 +95,20 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <p><span class="title-s">Nome: </span> <span><?PHP echo $dados["alu_nome"];?></span></p>
-                        <p><span class="title-s">Área de Atuação: </span> <span><?PHP echo $dados["alu_objetivo"];?></span></p>
-                        <p><span class="title-s">Email: </span> <span><?PHP echo $dados["alu_email"];?></span></p>
-                        <p><span class="title-s">Celular: </span> <span><?PHP echo $dados["alu_telefone"];?></span></p>
+                        <p><span class="title-s">Nome: Murilo Silva Beda</span> </p>
+                        <p><span class="title-s">Área de Atuação: Full Stack</span></p>
+                        <p><span class="title-s">Email: murilobeda@gmail.com</span></p>
+                        <p><span class="title-s">Celular: (19) 99961-8697</span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
-
                     <p class="title-s">Habilidades</p>
-
-                    <?php while($dados2 = mysqli_fetch_array($sqlskills)) { ?>
-                      <span><?php echo $dados2['ski_descricao']; ?></span> 
-                      <span class="pull-right"><?php echo $dados2['ski_porcentagem']; ?>%</span>
+                      <span>JavaScript</span> 
+                      <span class="pull-right">25%</span>
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: <?php echo $dados2['ski_porcentagem']; ?>;" aria-valuenow="<?php echo $dados2['ski_porcentagem']; ?>" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                    <?php } ?>
-
-                    
                   </div>
                 </div>
                 <div class="col-md-6">
